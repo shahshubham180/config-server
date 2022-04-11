@@ -1,0 +1,1 @@
+web: java -jar target/cloud-config-server-*.jar --server.port=$PORT
