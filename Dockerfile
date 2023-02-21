@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8761
-ADD target/cloud-config-server.jar cloud-config-server.jar
-ENTRYPOINT ["java","-jar","/cloud-config-server.jar"]
+ADD target/cloud-config-server-0.0.1-SNAPSHOT.jar cloud-config-server-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","cloud-config-server-0.0.1-SNAPSHOT.jar"]
