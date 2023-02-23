@@ -10,3 +10,4 @@ spring:
         git: 
           uri: https://github.com/shahshubham180/cloud-config-properties
           clone-on-start: true
+          searchPaths: '{application}'
